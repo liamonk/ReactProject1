@@ -9,7 +9,12 @@ export default function App() {
     <>
       <Navbar />
       <Hero />
-      <Card />
+      <Card 
+        rating="5.0"
+        reviewCount={6}
+        country="USA"
+        title="Life lessons with Katie Zafares"
+        price={136}/>
     </>
   );
 }
